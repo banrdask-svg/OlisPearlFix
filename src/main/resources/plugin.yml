@@ -1,0 +1,17 @@
+name: OlisPearlFix
+version: '${version}'
+main: com.banan.olispearlfix.OlisPearlFixPlugin
+api-version: '1.21.11'
+load: STARTUP
+author: 'банан'
+description: Persistent fishing rod bindings for vanilla ender pearl stasis chambers.
+commands:
+  stasis:
+    description: List or safely disarm your stasis chambers.
+    usage: /stasis [list|cancel [binding UUID]]
+    permission: olispearlfix.use
+permissions:
+  olispearlfix.use:
+    default: true
+  olispearlfix.admin:
+    default: op

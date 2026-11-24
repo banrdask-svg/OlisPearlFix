@@ -1,0 +1,11 @@
+enabled: true
+max-stasis-per-player: 8
+persistence-enabled: true
+# Seconds. Changes are also saved immediately, one record at a time.
+save-interval: 60
+debug: false
+# Only temporary tickets during activation/disarming; never force-load idle chambers.
+max-concurrent-activations: 8
+activation-timeout-ticks: 200
+activation-ticket-ticks: 100
+pearl-search-radius: 8
